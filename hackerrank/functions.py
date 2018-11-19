@@ -4,14 +4,14 @@ def is_leap(year):
     if (year%4)==0:
         if (year%100)==0:
             if (year%400)==0:
-                print("leaf year")
+                print("leap year")
             else:
-                print("it is not leaf year")
+                print("it is not leap year")
         else:
-            print("it is not leaf year")
+            print("it is not leap year")
 
     else:
-        print("it not leaf year")
+        print("it not leap year")
 
 
 year = int(input())
